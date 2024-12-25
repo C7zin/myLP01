@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", serif;
+}
+header {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.botao-padrao {
+  background-color: rgb(245, 97, 43);
+  color: white;
+  padding: 10px 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+.botao-padrao:hover {
+  background-color: rgb(253, 139, 98);
+}
+span {
+  color: rgb(247, 89, 32);
+}
